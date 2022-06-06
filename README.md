@@ -1,4 +1,4 @@
-### Welcome to the UDPing network measurement tool.
+### ネットワーク測定ツール「UDPing」へようこそ。
 
 The purpose of UDPing is to measure latency and packet loss across a link.  It does this by sending a continuous stream of packets from a source to a destination, measuring latency and loss at the destination, and periodically outputting summary performance metrics.
 
