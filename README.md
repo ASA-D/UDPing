@@ -1,11 +1,11 @@
 ### ネットワーク測定ツール「UDPing」へようこそ。
 
-The purpose of UDPing is to measure latency and packet loss across a link.  It does this by sending a continuous stream of packets from a source to a destination, measuring latency and loss at the destination, and periodically outputting summary performance metrics.
+これは通信路における遅延とパケット損失を計測するツールです。送信元から送信先まで連続的にパケットを送信し、送信先での遅延や損失を測定し、定期的に評価を出力することによって、これを実現しています。
 
-UDPing has many useful features, including:
-* Efficient implementation - typical sampling rates are 100/second
-* Randomized Poisson sampling intervals
-* Multiple source ports (to exercise multiple ECMP paths)
+UDPingには、以下のような便利な機能があります。
+* 効率的な実装を実現。（一般的なサンプリングレートは100/秒）
+* ランダムなポアソン分布
+* 複数のソースポートを搭載 (複数のECMP経路を使う場合)
 * Ability to specify multiple next-hop MAC addresses
 * Varied payload sizes
 * Supports multiple output formats, including statsd and JSON to stdout 
